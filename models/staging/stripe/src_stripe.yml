@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    schema: raw
+    database: nth-droplet-316902
+    tables:
+      - name: stripe-payment
